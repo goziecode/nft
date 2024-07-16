@@ -1,0 +1,66 @@
+body{
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+main{
+    background-color:  hsl(216, 50%, 16%);
+    max-width: 350px;
+    font-family: "Outfit";
+    padding: 20px;
+}
+.big-image{
+    width: 100% ;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+}
+.desc{
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price, .time{
+    color:  hsl(178, 100%, 50%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.time{
+    color: hsl(215, 51%, 70%);
+}
+.small-img{
+    width: 50px;
+    border: 3px solid snow;
+    border-radius: 50%;
+}
+.line{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top:  20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.create{
+    font-size: 20px;
+    color: white;
+}
+.cl{
+    color: hsl(215,51%, 70%);
+}
+h1:hover, .jules:hover{
+    cursor: pointer;
+    color: cyan;
+}
+
+.big-image {
+    cursor: pointer;
+    
+}
